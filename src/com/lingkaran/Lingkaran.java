@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.lingkaran;
 
-/**
- *
- * @author SHIKUZIKA
- */
-public class Lingkaran {
+
+public interface Lingkaran {
+    int PANJANG = 12;
+    int LEBAR = 7;
+    
+    void hitungLuas();
+    void tampilkanluas();
+
+    
     
 }
